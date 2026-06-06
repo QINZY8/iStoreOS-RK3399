@@ -34,6 +34,9 @@ on:
   # - cron: 0 16 * * 4          
   # #     分,时,日,月,周。每周五 20时执行一次 (UTC时间)
 
+permissions:
+  contents: write
+
 env:
   REPO_URL: https://github.com/istoreos/istoreos
   # REPO_BRANCH: main
